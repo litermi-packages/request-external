@@ -10,9 +10,9 @@ The `External Request` is a package to send request to others api-rest .
 
 ## Installation
 
-Require the `litermi-packages/external-request` package in your `composer.json` and update your dependencies:
+Require the `litermi-packages/request-external` package in your `composer.json` and update your dependencies:
 ```sh
-composer require litermi-packages/external-request
+composer require litermi-packages/request-external
 ```
 
 
@@ -28,7 +28,7 @@ set provider
 ```
 
 
-The defaults are set in `config/external-request.php`. Publish the config to copy the file to your own config:
+The defaults are set in `config/request-external.php`. Publish the config to copy the file to your own config:
 ```sh
 php artisan vendor:publish --provider="Litermi\ExternalRequest\Providers\ServiceProvider"
 ```
