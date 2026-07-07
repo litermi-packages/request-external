@@ -17,7 +17,7 @@
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
         "litermi-packages/simple-notification": "^1.0",
         "litermi-packages/logs": "^1.0",
-        "halaxa/json-machine": "dev-master"
+        "halaxa/json-machine": "^1.0"
     },
     "autoload": {
         "psr-4": {
